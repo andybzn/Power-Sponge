@@ -25,8 +25,9 @@ Url: https://github.com/dark-coffee/Power-Sponge/
 function Power-Sponge{
 
     #Set Parameters
-    [Parameter(Mandatory=$false)][string]$SuperCaps,
-    [Parameter(Mandatory=$false)][string]$LessCaps
-
+    param(
+        [Parameter(Mandatory=$false)][string]$SuperCaps,
+        [Parameter(Mandatory=$false)][string]$LessCaps
+    )
     
 }
